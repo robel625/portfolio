@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgCustomGradient {
+  background: linear-gradient(
+    163deg,
+    #130428 7.29%,
+    #251043 34.38%,
+    #38126d 56.77%,
+    #261045 84.9%,
+    #190634 100%
+  );
+}
+
+.customShadow {
+  box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+}

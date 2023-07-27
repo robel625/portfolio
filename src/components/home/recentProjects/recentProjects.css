@@ -1,0 +1,6 @@
+.portfolioImageContainer img {
+  transition: transform 2s ease;
+}
+.portfolioImageContainer.hovered img {
+  transform: translateY(calc(-100% + 16rem));
+}
